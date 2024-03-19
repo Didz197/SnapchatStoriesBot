@@ -10,10 +10,10 @@ logging.getLogger("urllib3").setLevel(logging.WARNING)
 
 
 class ENV_VARS(object):
-    API_ID = int(os.environ.get("API_ID"))
-    API_HASH = os.environ.get("API_HASH")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN")
-    BOT_USERNAME = os.environ.get("BOT_USERNAME")
+    API_ID = int(os.environ.get("API_ID", "29424227" ))
+    API_HASH = os.environ.get("API_HASH", "1b9425068dc8219a4bbbd841c5c5153e")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN, "7086723887:AAGLhc8wDVC1vT1dSY8HqIRQSluk6B2vS8g")
+    BOT_USERNAME = os.environ.get("BOT_USERNAME", "Darkice25_bot")
     #AUTH_USER = int(os.environ.get("AUTH_USER", 5071059420))
 
 
